@@ -1,0 +1,5 @@
+text=input("enter a string:")
+result=""
+for i in text:
+    result=i+result
+    print(result)

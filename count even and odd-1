@@ -1,0 +1,10 @@
+list=[28,23,90,34,56]
+even=0
+odd=0
+for i in list:
+    if(i%2==0):
+        even=even+1
+    else:
+        odd=odd+1
+print("Even numbers in list is ",even)
+print("Odd numbers in list is ",odd)            

@@ -1,0 +1,5 @@
+def square(n):
+    return n**2
+numbers=[2,3,5,7]
+squares=list(map(square,numbers))
+print(squares)
